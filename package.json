@@ -1,0 +1,34 @@
+{
+  "name": "roller-discord",
+  "version": "0.0.1",
+  "description": "Modular framework for making Discord bots",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+	"url": "git+https://github.com/Balbi/roller-discord.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Taylor Balbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balbi/roller-discord/issues"
+  },
+  "homepage": "https://github.com/Balbi/roller-discord#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.3"
+  }
+}
